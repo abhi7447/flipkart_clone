@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Arial;
+    border: border-box;
+}
+.navbar{
+    justify-content:space-evenly;
+    align-items: center;
+    height:70px;
+    background-color:#ffffff;
+    display: flex;
+}
+.nav-logo {
+    height: 20px;
+    width: 100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.borer:hover{
+    border:2px solid black;
+}
+.logo{
+    background-image: url("./images/Flipkart.png");
+    background-size:cover;
+    height:155%;
+    width:80%;
+}
+.nav-menu:hover{
+    border: 1.5px solid gray;
+}
+/** Box 2 **/
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height:40px;
+}
+.search-input{
+width: 800px;
+height: 40px;
+border-top-right-radius:8px;
+border-bottom-right-radius:8px;
+border:none;
+outline: none;
+background-color:#1B98E01A;
+}
+.search-icon i{
+    display: flex;
+    align-items: center;    
+    color: grey;
+    border:1px solid grey ;
+    padding: 8px 8px 8px 12px;
+    font-size: 24px;
+    height: 26px;
+    width: 25px;
+    background-color:#1B98E01A;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    border: none;
+
+}
+/** Box 3 **/
+
+.user{
+    display: flex;
+    align-items: center;    
+    padding: 8px 92px 8px 8px;
+    border-radius: 4px;
+    height:25px;
+    width: 25px;
+}
+.user span{
+    display: flex;
+    font-size:24px;
+}
+.user i{
+    margin:0px 8px 0px 0px;
+    font-size:24px;
+}
+.user a{
+    margin:0px 0px 0px 8px;
+    font-size:12px;
+}
+.user:hover{
+    background-color:blue;
+    color:white;
+    border-radius:10px;
+}
+.user a:hover{
+    transform: rotate(180deg);
+} 
+
+/** Box 4 **/
+
+.nav-cart i{
+    font-size:24px;
+    color:black;
+    margin:0px 0px 0px 0px;
+}
+/** Box 5 **/
+
+ .nav-sell i{
+    font-size:24px;
+    margin:0px 0px 0px 0px;
+}
+/** Box 6 **/
+
+.nav-menu i{
+    font-size:24px;
+    margin:8px;
+ }
+
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F1F3F6;
+    justify-content:space-evenly;
+    background-size: cover;
+    height: 2550px;
+}
+
+/** Shop-Content **/
+
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    height: 150px;
+    width: 98%;
+}
+.box1 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+
+.box3 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+.box3 a:hover{
+    transform: rotate(180deg);
+}
+.box4 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+.box4 a:hover{
+    transform: rotate(180deg);
+}
+.box5 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+.box5 a:hover{
+    transform: rotate(180deg);
+}
+.box6 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+
+.box7 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+}
+
+.box8 img{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    
+}
+.box8 a:hover{
+    transform: rotate(180deg);
+}
+.box8 img{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    left:25%;
+}
+.box9 img{
+    display: flex;
+    position:relative;
+    justify-content: center; 
+}
+.box9 a:hover{
+    transform: rotate(180deg);
+}
+
+/** Slide-Section **/
+
+.slide-section{
+    display:flex;
+    justify-content:center;
+    background-size: cover;
+    background-color: #F1F3F6;
+    background-size: cover;
+    margin:0 0 0px 0px;
+    width:100%;
+    height:247px;
+}
+
+/** Best Deal Section **/
+
+ .head{
+    display:block;
+    justify-content:left;
+    background-size: cover;
+    height: 300px;
+    width:80%;
+    padding:16px 12px;
+    margin:0px 247px 1750px 0px;
+    background-color:white;
+    font-size: 15px;
+}
+
+.head i{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a55e5;
+    border-radius: 50%;
+    height:24px;
+    rotate: -90deg;
+    color: white;
+    position:relative;
+    left:98%;
+    top:-8%;
+    width:24px;
+}
+.Deal1{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: white;
+    margin: 0 0px 0 10px;
+    height: 150px;
+    width: 100%;
+}
+.best1{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best1 img{
+    justify-content:center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best2{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best2 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best3{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best3 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best3{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+    
+}
+.best3 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best4{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best4 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best5{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best5 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.best6{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+    margin-top: 30px;
+    margin-left:30px;
+}
+.best6 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+
+/** Flight Book **/
+.Flight{
+    display:flex;
+    justify-content:right;
+    position:relative;
+    top:13px;
+    right:-140px;
+    background-size: cover;
+    height: 325px;
+    width:17%;
+    padding:16px 12px;
+    margin:0 255px 0 15px;
+}
+.Trap{
+    display:flow-root;
+    justify-content:left;
+    background-size: cover;
+    height: 300px;
+    width:120%;
+    padding:16px 12px;
+    margin:140px 0px 0px -10px;
+    background-color:white;
+    font-size: 15px;
+}
+
+.Deal2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+}
+.drop1{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop1 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop2{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop2 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop3{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop3 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop3{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop3 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop4{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop4 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop5{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop5 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop6{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop6 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop7{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop7 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+.drop8{
+    height: 200px;
+    width: 150px;
+    border:1px solid rgb(207, 196, 196);
+}
+.drop8 img{
+    justify-content: center;
+    height: 142px;
+    width: 142px;
+    margin:26px 0px;
+    padding:6px;
+}
+
+/** Summary **/
+
+.Heading{
+    padding:30px;
+    height:auto;
+    width:115%;
+}
+.H1{
+    font-size: 20px;
+    width:100%;
+    margin-bottom:10px;
+    color:#878787;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.P1{
+    font-size: 12px;
+    color:#878787;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.H2{
+    font-size: 16px;
+    margin-bottom:10px;
+    color:#878787;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.p2{
+    color:#2874f0;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+
+/** Footer Section **/
+
+.foot{
+    display:flex;
+    justify-content: space-evenly;
+
+}
