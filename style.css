@@ -535,5 +535,148 @@ background-color:#1B98E01A;
 .foot{
     display:flex;
     justify-content: space-evenly;
+    height:300px;
+    width:97.5%;
+    background-color: black;
+    padding: 40px 20px 0px;
+}
+.About p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.A{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Group p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.B{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Help p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.C{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Consumer p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.D{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Mail{
+    border-left: 1px solid #454d5e;
+    height:200px;
+    padding-left: 35px;
+}
+.Mail p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Mail a{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Mail i{
+    color:#FFFFFF;
+    height: 24px;
+    width:24px;
+}
+.Reg p{
+    color: #878787;
+    font-size: 12px;
+    margin:0px 0px 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Reg a{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+}
+.Reg span{
+    color:#2874f0;
+}
 
+/** Down Section **/
+
+.Down{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding:25px 0px;
+    height:60px;
+    width:100%;
+}
+.store{
+    display:flex;  
+}
+.store p{
+    margin:0px 0px 0px 8px;
+    color:#FFFFFF;
+}
+.store i{
+    color:#edb60f;
+}
+.star{
+    display:flex;
+}
+.star p{
+    margin:0px 0px 0px 8px;
+    color:#FFFFFF;
+}
+.star i{
+    color:#edb60f;
+}
+.gift{
+    display:flex;
+}
+.gift p{
+    margin:0px 0px 0px 8px;
+    color:#FFFFFF;
+}
+.gift i{
+    color:#edb60f;
+}
+.help{
+    display:flex;
+}
+.help p{
+    margin:0px 0px 0px 8px;
+    color:#FFFFFF;
+}
+.help i{
+    color:#edb60f;
+}
+.copy{
+    display:flex;
+}
+.copy p{
+    margin:0px 0px 0px 8px;
+    color:#FFFFFF;
+}
+.copy i{
+    color:#FFFFFF;
 }
