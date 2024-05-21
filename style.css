@@ -265,68 +265,39 @@ background-color:#1B98E01A;
 }
 .slide1{
     display: flex;
-    justify-content:center;
-    width: 155%;
+    width: 160%;
     height:247px;
     position: relative;
     left:-24%;
 }
-.slide2{
+.slide2{ 
     display: flex;
     left:-24%;
-    width: 155%;
+    width: 160%;
     height:247px;
     position: relative;
 }
 .slide3{
     display: flex;
     left:-24%;
-    width: 155%;
+    width: 160%;
     height:247px;
     position: relative;
 }
 .slide4{
     display: flex;
     left:-24%;
-    width: 155%;
+    width: 160%;
     height:247px;
     position: relative;
 }
 .slide5{
     display: flex;
     left:-24%;
-    width: 155%;
+    width: 160%;
     height:247px;
     position: relative;
-}
-
-/* The dots/bullets/indicators */
-
-.guard{
-    width: 60px;
-    height: 15px;
-    background-color: rgba(40,36,36,0.20);
-    display: flex;
-    position:absolute;
-    flex-direction: row;
-    top:70%;
-    padding-left: 2px;
-    padding-right: 2px;
-    border-radius: 40%;
-    align-items: center;
-}
-.dot {
-    position: relative;
-    height: 5px;
-    width: 10px;
-    margin: 0 2px;
-    border-bottom-left-radius:6px;
-    border-bottom-right-radius:6px;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
-    background-color:grey;
-  }
-  
+}  
 
 /** Best Deal Section **/
 
